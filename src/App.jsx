@@ -1,10 +1,13 @@
 import React from 'react';
-import './app.css';
+import styles from './app.module.css';
+import Navbar from './components/navbar/Navbar';
 
 const App = () => {
   return (
     <div>
-      <section><a href="">Hello</a></section>
+      <section>
+        <Navbar/>
+      </section>
       <section>Parallax</section>
       <section>Parallax</section>
     </div>
