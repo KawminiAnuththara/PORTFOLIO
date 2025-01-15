@@ -12,31 +12,32 @@ const Navbar = () => {
       initial={{opacity:0, scale:0.5}}
       animate={{opacity:1, scale:1}}
       transition={{duration:0.5}}
+      whileHover={{scale:1.1}} whileTap={{scale:0.95}}
        className="title" href="/">Portfolio</motion.a>
 
       <div className="menu">
-        <img
+        <motion.img   whileHover={{scale:1.1}} whileTap={{scale:0.95}}
           className="menuBtn"
           src={menuBtn}
           alt="Menu Button"
           onClick={() => setMenuOpen(!menuOpen)}
         />
         <ul className={`menuItems ${menuOpen ? 'menuOpen' : ''}`} onClick={() => setMenuOpen(false)}>
-          <li>
+          <motion.li whileHover={{scale:1.1}} whileTap={{scale:0.95}}>
             <a href="#about">About</a>
-          </li>
-          <li>
+          </motion.li>
+          <motion.li whileHover={{scale:1.1}} whileTap={{scale:0.95}}>
             <a href="#Tools&Technologies">Tools & Technologies</a>
-          </li>
-          <li>
+          </motion.li>
+          <motion.li whileHover={{scale:1.1}} whileTap={{scale:0.95}}>
             <a href="#projects">Projects</a>
-          </li>
-          <li>
+          </motion.li>
+          <motion.li whileHover={{scale:1.1}} whileTap={{scale:0.95}}>
             <a href="#blogs">Blogs</a>
-          </li>
-          <li>
+          </motion.li>
+          <motion.li whileHover={{scale:1.1}} whileTap={{scale:0.95}}>
             <a href="#contact">Contact</a>
-          </li>
+          </motion.li>
         </ul>
       </div>
     </nav>
