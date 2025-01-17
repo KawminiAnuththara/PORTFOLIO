@@ -1,7 +1,11 @@
 import React from 'react';
-import styles from './app.module.css';
+import './App.css';
 import Navbar from './components/navbar/Navbar';
 import Hero from './components/Hero/Hero';
+import About from './components/About/About';
+import Skills from './components/Skills/Skills';
+import Project from './components/Projects/Project';
+import Contact from './components/contact/Contact';
 
 const App = () => {
   return (
@@ -10,8 +14,12 @@ const App = () => {
         <Navbar/>
         <Hero/>
       </section>
-      <section>Parallax</section>
-      <section>Parallax</section>
+      <section>
+        <About/>
+      </section>
+      <section><Skills/></section>
+      <section><Project/></section>
+      <section><Contact/></section>
     </div>
   )
 }

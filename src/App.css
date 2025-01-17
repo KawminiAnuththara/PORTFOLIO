@@ -11,7 +11,7 @@ html{
 }
 
 body{
-  background: linear-gradient(180deg, rgb(0, 7, 19), rgba(1, 1, 53, 0.2));
+  background:rgb(1, 1, 18);
   color: lightgrey;
 }
 
@@ -21,6 +21,6 @@ a{
 }
 
 section{
-  height: 100vh;
+  height: 120vh;
   scroll-snap-type: center;
 }

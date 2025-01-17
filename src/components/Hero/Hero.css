@@ -1,5 +1,5 @@
 .hero{
-  background: linear-gradient(100deg, rgb(1, 9, 23), rgba(1, 1, 40, 0.2));
+  background: linear-gradient(180deg, rgb(1, 9, 23), rgba(7, 7, 54, 0.2));
   color: white; /* Ensure text is readable against the dark background */
   padding: 20px;
   min-height: 100vh; /* Make it cover the full viewport height */
