@@ -114,7 +114,7 @@
 
   /* Section Heading Styling */
   .section-heading {
-    font-size: 40px;
+    font-size: 50px;
     font-weight: bold;
   }
 
@@ -155,4 +155,14 @@
   .source-button:hover {
     background-color: #16a34a;
   }
+  @media (max-width: 480px) {
+    .filter-button {
+      padding: 0.75rem 1.5rem;
+      font-size: 14px;
+    }
   
+    .portfolio-item {
+      margin: 0 auto;
+      width: 90%;
+    }
+  }

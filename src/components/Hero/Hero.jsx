@@ -76,7 +76,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="hero">
+    <div className="hero" id='home'>
       <div className="textContainer" >
         <motion.div className="wrapper" variants={textVariants} initial="initial" animate="animate">
         <motion.h1 variants={textVariants}>Kawmini Kalubowila</motion.h1>

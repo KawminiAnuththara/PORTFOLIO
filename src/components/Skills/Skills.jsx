@@ -11,7 +11,7 @@ const AppText = {
 
 const Skills = () => {
   return (
-    <div className="skills-container" id="skills">
+    <div className="skills-container" id="Tools&Technologies">
       <div className="skills-header">
         <img src={skill} className="skills-icon" alt="Skill Icon" />
         <h1 className="skills-title">

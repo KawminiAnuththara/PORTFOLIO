@@ -2,7 +2,7 @@ import {  android, angular,
      firebase,  mysql,
      nodejs,javascript,
      react, typescript,mongodb,reactnative,python,java,spring,tailwind,
-     androidstudio,travel1,p1,pizza1
+     androidstudio,travel1,p1,pizza1,givemedz,airesume,plantGO,mini,movie
      } from "../assets/index"
 
 
@@ -76,8 +76,8 @@ export const portfolio=[
        title:'GIVMEDZ',
        type:'mobile',
        desc:"App Build using React native and compaitable for Android and IOS",
-       imageUrl:"https://cdn.dribbble.com/users/4189231/screenshots/17343305/media/202173138f9504c2eacd16e70698312c.png?compress=1&resize=400x300",
-       demo: "https://www.example.com/demo-video",  
+       imageUrl:givemedz,
+       demo: "/givmedz.mp4",  
        source: "https://github.com/KawminiAnuththara/GIVMEDZ-medicine-Donation.git",
    },
    {
@@ -85,8 +85,8 @@ export const portfolio=[
        title:'AI resume buider',
        type:'website',
        desc:"App Build using React native and compaitable for Android and IOS",
-       imageUrl:"https://miro.medium.com/max/1400/0*GWvV5kcuVATUfs2r.png",
-       demo: "https://www.example.com/demo-video",  
+       imageUrl:airesume,
+       demo: "/airesume.mp4",  
        source: "https://github.com/KawminiAnuththara/AI-Resume-Builder.git",
    },
    {
@@ -101,28 +101,28 @@ export const portfolio=[
    {
        id:3,
        title:'Plant App',
-       type:'Frontend App',
+       type:'Frontend',
        desc:"App Build using React native and compaitable for Android and IOS",
        imageUrl:p1,
-       demo: "https://www.example.com/demo-video",  
+       demo: "/p.mp4",  
        source: "https://github.com/KawminiAnuththara/Plant.git",
    },
    {
     id:5,
     title:'Travel Places',
-    type:'Frontend App',
+    type:'Frontend',
     desc:"App Build using HTML,css and JavaScript",
     imageUrl:travel1,
-    demo: "https://www.example.com/demo-video",  
+    demo: "/travel.mp4",  
     source: "https://github.com/KawminiAnuththara/Travel-Places.git",
 },
 {
     id:6,
     title:'Pizza App',
-    type:'Frontend App',
+    type:'Frontend',
     desc:"App Build using HTML,css and JavaScript",
     imageUrl:pizza1,
-    demo: "https://www.example.com/demo-video",  
+    demo: "/pizza2.mp4",  
     source: "https://github.com/KawminiAnuththara/PIZZAAPP.git",
 },
 {
@@ -130,8 +130,8 @@ export const portfolio=[
     title:'PlantGO',
     type:'MERN',
     desc:"App Build using HTML,css and JavaScript",
-    imageUrl:"https://cdn.dribbble.com/users/2892962/screenshots/14273462/nlytical_mockup_4x.png",
-    demo: "https://www.example.com/demo-video",  
+    imageUrl:plantGO,
+    demo: "/plantGo.mp4",  
     source: "https://github.com/KawminiAnuththara/plant-ordering-website.git",
 },
 {
@@ -139,24 +139,24 @@ export const portfolio=[
     title:'Mini Fashion',
     type:'MERN',
     desc:"App Build using HTML,css and JavaScript",
-    imageUrl:"https://cdn.dribbble.com/users/2892962/screenshots/14273462/nlytical_mockup_4x.png",
-    demo: "https://www.example.com/demo-video",  
+    imageUrl:mini,
+    demo: "/mini.mp4",  
     source: "https://github.com/KawminiAnuththara/Mini-Fashion-Center-E-commerce-website.git",
 },
 {
     id:9,
     title:'Movie Finder',
-    type:'Frontend App',
+    type:'Frontend',
     desc:"App Build using HTML,css and JavaScript",
-    imageUrl:"https://cdn.dribbble.com/users/2892962/screenshots/14273462/nlytical_mockup_4x.png",
-    demo: "https://www.example.com/demo-video",  
+    imageUrl:movie,
+    demo: "/movie.mp4",  
     source: "https://github.com/KawminiAnuththara/Movie_Finder.git",
 },
    
 ]
 // constant/index.jsx
 export const AppText = {
-    Creative: 'My',
+    Creative: 'My ',
     Portfolio: 'Projects'
   };
   

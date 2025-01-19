@@ -5,10 +5,18 @@ import cursorIcon from "../../assets/cursorIcon.png"
 import serverIcon from "../../assets/serverIcon.png"
 import uiIcon from "../../assets/uiIcon.png"
 
+const AppText = {
+  Skills: 'About ',
+  Experties: 'Me', // Correct spelling of 'Expertise'
+};
+
 const About = () => {
   return (
-    <section className='container'>
-        <h2 className='title'>About Me</h2>
+    <section className='container' id='about'>
+       <h1 className="skills-title">
+          {AppText.Skills}
+          <span className="skills-subtitle">{AppText.Experties}</span>
+        </h1> 
         
         <div className='aboutParagraph'>
           <p>

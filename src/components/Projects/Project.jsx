@@ -34,7 +34,7 @@ const Project = () => {
   };
 
   return (
-    <div className="portfolio-container">
+    <div className="portfolio-container" id='projects'>
       <div className="portfolio-header">
         <SectionHeading firstTitle={AppText.Creative} secondTitle={AppText.Portfolio} />
         <img src={robo} className="robo-icon" alt="robo" />
@@ -42,10 +42,10 @@ const Project = () => {
       
       <div className="portfolio-filter">
         <button onClick={() => filterPortfolio('All')} className="filter-button">All</button>
-        <button onClick={() => filterPortfolio('ui/ux')} className="filter-button">MERN App</button>
+        <button onClick={() => filterPortfolio('MERN')} className="filter-button">MERN App</button>
         <button onClick={() => filterPortfolio('website')} className="filter-button">Web App</button>
+        <button onClick={() => filterPortfolio('Frontend')} className="filter-button">Frontend App</button>
         <button onClick={() => filterPortfolio('mobile')} className="filter-button">Mobile App</button>
-        <button onClick={() => filterPortfolio('mobile')} className="filter-button">FrontEnd App</button>
       </div>
 
       <div className="portfolio-items">

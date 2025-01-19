@@ -70,6 +70,16 @@
   .aboutItem p {
     font-size: 17px;
   }
+  .skills-title {
+    font-size: 50px;
+    font-weight: bold;
+    color: #f4f4f4;
+    margin-left: 10px;
+  }
+  
+  .skills-subtitle {
+    color: #1d4ed8; /* Blue color */
+  }
   
   @media screen and (max-width: 830px) {
     .container {

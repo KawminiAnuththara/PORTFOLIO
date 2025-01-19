@@ -15,7 +15,11 @@ import javascript from './javascript.png'
 import travel1 from './tavel1.png'
 import p1 from './p1.png'
 import pizza1 from './pizza1.png'
-
+import givemedz from './givmedz.png'
+import airesume from './airesume.png'
+import plantGO from './plantGO.png'
+import mini from './mini.png'
+import movie from './movie.png'
 import android from './android.png'
 import react from './react.png'
 import robo from './robo.png'
@@ -49,7 +53,8 @@ export {
     java,
     python,
     reactnative,
-    spring,
-    javascript,travel1,p1,pizza1
+    spring,airesume,
+    javascript,travel1,p1,pizza1,givemedz,
+    plantGO,mini,movie
 
 }

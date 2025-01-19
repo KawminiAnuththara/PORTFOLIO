@@ -139,10 +139,10 @@ txt-rotate>.wrap{
     }
   
     .imageContainer {
-      width: 48%;
-      margin-top: -400px;
+      width: 45%;
+      margin-top: -700px;
       align-items: center;
-      margin-left: 25%;
+      margin-left: 15%;
       
     }
   
@@ -154,12 +154,12 @@ txt-rotate>.wrap{
     }
   
     .textContainer h1 {
-      font-size: 40px;
+      font-size: 30px;
       text-align: center; /* Adjust font size for mobile */
     }
   
     .textContainer h2 {
-      font-size: 30px; /* Adjust font size for mobile */
+      font-size: 20px; /* Adjust font size for mobile */
     }
   
     .textContainer button {
@@ -173,14 +173,15 @@ txt-rotate>.wrap{
   @media screen and (max-width: 768px) { /* For mobile devices */
     .hero {
       flex-direction: column-reverse;
-      padding: 10px;
+      padding: 5px;
+      
     }
   
     .imageContainer {
-      height: 20%;
+      height: 10%;
       margin-top: -90px;
       align-items: center;
-      margin-left: 25%;
+      margin-left: 38%;
       
     }
   
@@ -188,16 +189,16 @@ txt-rotate>.wrap{
       margin: 0 auto;
       max-width: 100%;
       text-align: center;
-      margin-left: 185px;
+      margin-left: 90px;
     }
   
     .textContainer h1 {
-      font-size: 47px;
+      font-size: 30px;
       text-align: center; /* Adjust font size for mobile */
     }
   
     .textContainer h2 {
-      font-size: 38px; /* Adjust font size for mobile */
+      font-size: 25px; /* Adjust font size for mobile */
     }
   
     .textContainer button {
@@ -206,4 +207,5 @@ txt-rotate>.wrap{
       font-size: 24px;
     }
   }
+  
   
