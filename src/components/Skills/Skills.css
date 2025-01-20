@@ -74,30 +74,73 @@
   }
   
   /* Responsive Styles */
-  @media (max-width: 768px) {
+/* Additional Responsive Media Queries */
+@media (max-width: 1024px) { /* For tablets */
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr); /* Two images in one row */
+    gap: 15px; /* Reduced gap for smaller screens */
+  }
 
-    .skills-container{
-        margin-top: 250%;
-        margin-bottom: 200%;
-    }
-    .skill-item {
-      
-      justify-content: center;
-      align-items: center;
-      background-color: #f3e8ff;
-      border-radius: 50%;
-      padding: 4px;
-      transition: transform 0.3s ease;
-    }
-    .skills-grid {
-      grid-template-columns: repeat(3, 2fr);
-    }
+  .skills-container {
+    margin-top: 80px; /* Adjust top margin */
+    margin-bottom: 60px; /* Add bottom margin */
+  }
+
+  .skill-icon {
+    width: 50px; /* Smaller icons for tablets */
+    height: 50px;
+  }
+
+  .skills-title {
+    font-size: 40px; /* Adjust title size for tablets */
+  }
+}
+
+@media (max-width: 768px) { /* For small tablets and large mobile devices */
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr); /* Two images in one row */
+    gap: 10px; /* Further reduced gap */
+  }
+
+  .skills-container {
+    margin-top: 100%; /* Adjust top margin */
+    margin-bottom: 50px; /* Add bottom margin */
+  }
+
+  .skill-icon {
+    width: 40px; /* Smaller icons */
+    height: 40px;
+  }
+
+  .skills-title {
+    font-size: 35px; /* Adjust title size for smaller screens */
+  }
+}
+
+@media (max-width: 480px) { /* For mobile devices */
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr); /* Two images in one row */
+    gap: 5px; /* Minimal gap for compact layout */
+  }
+
+  .skills-container {
+    margin-top: 100%; /* Adjust top margin */
+    margin-bottom: 20px; /* Add bottom margin */
+  }
+
+  .skill-icon {
+    width: 30px; /* Smallest icons for mobile */
+    height: 30px;
+  }
+  .skills-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #f4f4f4;
+    margin-left: 10px;
+  }
+  
+  .skills-header h1 {
     
+    font-size: 30px; /* Blue color */
   }
-  
-  @media (max-width: 480px) {
-    .skills-grid {
-      grid-template-columns: 1fr;
-    }
-  }
-  
+}

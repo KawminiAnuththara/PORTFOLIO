@@ -7,15 +7,18 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-left: -70px;;
+  margin-left: -70px;
+  position: relative;
+  z-index: 1;
 }
 .imageContainer{
     height: 60%;
-    margin-top: 200px;
+    margin-top: 100px;
     position: absolute;
     top: 0;
     right:50px;
     margin-right: 70px;
+    z-index: 5;
     
 }
 .imageContainer img{
@@ -60,16 +63,21 @@
     background-color: transparent; /* For other browsers */
   }
   
-.buttons{
-    button{
+  .buttons button {
     padding: 20px;
     border: 1px solid white;
     border-radius: 10px;
     background-color: transparent;
     color: white;
     margin-right: 20px;
-    cursor: pointer;
-    }
+    cursor: pointer; /* Apply pointer cursor directly here */
+    transition: all 0.3s ease;
+    position: relative; 
+    z-index: 10;/* Optional for hover effect */
+}
+
+.buttons button:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Add hover effect */
 }
 
 @keyframes updown{
@@ -89,11 +97,12 @@ txt-rotate>.wrap{
 .slidingTextContainer{
     position: absolute;
     font-size: 50vh;
-    bottom: -120px;
+    bottom: -75px;
     white-space: nowrap;
     color:#ffffff09;
     width: 50%;
     font-weight: bold;
+    z-index: 0;
 }
 
 @media screen and (max-width: 1024px) { /* For tablets */

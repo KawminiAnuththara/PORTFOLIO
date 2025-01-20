@@ -3,10 +3,10 @@ import './Skills.css';
 import { skill } from '../../assets';
 import { skillsList } from '../../constant';
 
-// Define AppText object
+
 const AppText = {
   Skills: 'Tools&',
-  Experties: 'Technologies', // Correct spelling of 'Expertise'
+  Experties: 'Technologies', 
 };
 
 const Skills = () => {

@@ -74,7 +74,7 @@
   @media (max-width: 768px) {
 
     .blog-container{
-        margin-top: 200%;
+        margin-top: -100px;
     }
     .blog-card {
       max-width: 90%;
@@ -101,7 +101,8 @@
   /* For smartphones (screen width <= 480px) */
   @media (max-width: 480px) {
     .blog-container{
-        margin-top: 40%;
+        margin-top: -380px;
+        margin-bottom: 70px;
     }
     .blog-card {
       max-width: 95%;
