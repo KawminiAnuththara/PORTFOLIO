@@ -101,7 +101,7 @@
   /* For smartphones (screen width <= 480px) */
   @media (max-width: 480px) {
     .blog-container{
-        margin-top: -380px;
+        margin-top: -370px;
         margin-bottom: 70px;
     }
     .blog-card {
